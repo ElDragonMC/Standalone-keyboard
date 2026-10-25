@@ -19,6 +19,7 @@
 3. [2026-10-24 – Work session](#2026-10-24-work-session)
 4. [2026-10-24 – Work session](#2026-10-24-work-session)
 5. [2026-10-24 – Work session](#2026-10-24-work-session)
+6. [2026-10-24 – Work session](#2026-10-24-work-session)
 
 ## Design
 
@@ -61,6 +62,16 @@ I (again) had to fix some footprints beacouse the connector for the speaker, was
 
 ### 2026-10-24 – Work session
 
+First, i started fixing the MPR121 custom footprint so i can fit the sensor PCB, and i (again) had to fix the wiring on the schematic beacouse the pads on the MPR121 PCB were not the same as the chip.
+<br> Then i realy messed up and deleated the whole PCB design and started designing and routing it again. Finaly i desinged the cosmetic part, linking the 3D models and making the renders.
+
 **1.27h**
 
 [Timelapse](https://lookout.hackclub.com/api/media/e4fb91f9-f3b0-4699-83b0-45c1a8130bf8/video.mp4)
+
+## 2026-10-24 - Work session
+
+To finish the project i programmed the code on arduino. The part that makes the piano sounds with the amplifier was the most difficult one and google saved me from a brain stroke (i don't know why it makes the sounds with some equations).
+
+**1.02h**
+

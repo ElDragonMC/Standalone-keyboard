@@ -53,7 +53,7 @@ I designed a custom footprint for the MPR121 beacouse i could not find one onlin
 ### 2026-10-24 – Work session
 
 I (again) had to fix some footprints beacouse the connector for the speaker, was wrong and i started to route the PCB.
-<br> I had to fix some connections that were not ok beacouse i repeated the connection from the rotary encoder to the ESP32 and i finished routing the PCB. I started making the PCB beautifull so it's not that ugly and has some personality.
+<br> I had to fix some connections that were not ok beacouse i repeated the connection from the rotary encoder to the ESP32 and i finished routing the PCB. Then i started making the PCB beautiful so it's not that ugly and has some personality. Next i decided to link the 3D files to the footprints so i can make the cool renders and i've encountered one of the main problems: the custom footprint for the MPR121 was too narrow.
 
 **1.18h**
 

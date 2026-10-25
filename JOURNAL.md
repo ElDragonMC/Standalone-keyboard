@@ -42,6 +42,10 @@ I "finished" (there were a lot of things wrong) the schematic, arranged the foot
 
 ### 2026-10-24 – Work session
 
+I designed a custom footprint for the MPR121 beacouse i could not find one online (The only ones available were for the chip, not the PCB) and i had to fix the wiring on the schematic beacouse the pads on the PCB were diferent ones than the ones on the chip.  Again, i was so wrong and i had to fix it later.
+<br> Then i finaly started designing the custom shape pads for the keys. I had to watch another tutorial beacouse i forgot about it. I think, for me this was the most difficult part of the design process next to programming the code.
+<br> Finaly i arranged the components on the PCB and i left to eat lunch.
+
 **1.37h**
 
 [Timelapse](https://lookout.hackclub.com/api/media/453095ce-8cdc-4b45-af6e-8c5be0f41a92/video.mp4)

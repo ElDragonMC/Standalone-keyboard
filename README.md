@@ -27,3 +27,44 @@ Back:
 | MPR121 | 1 | Aliexpress ES | $3.04 | $3.04 | [Aliexpress ES](https://es.aliexpress.com/item/1005012763534800.html?spm=a2g0o.productlist.main.3.16896611bZu93d&algo_pvid=29ce7036-8359-4460-a984-e9a5f591addc&algo_exp_id=29ce7036-8359-4460-a984-e9a5f591addc-3&pdp_ext_f=%7B%22order%22%3A%2215%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.71%212.71%21%21%2119.80%2119.80%21%400b884b4717929225615153281e1074%2112000059277049266%21sea%21ES%214844224188%21ACX%211%210%21n_tag%3A-29919%3Bd%3A6e95c66c%3Bm03_new_user%3A-29894&curPageLogUid=Hx6OSlxqzpQ2&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005012763534800%7C_p_origin_prod%3A) |
 | **Estimated total shipping** | **1** | — | — | **$0.00** | — |
 | **Total Cost** | **1** | — | — | **$26.20** | — |
+
+# Desing Process
+
+I designed the PCB with KiCad (the only PCB design software i know how to use) following some parts from the starter guide to have a base idea. I wanted to make a case for it but i think it will look cooler to have it raw. A sleek black PCB will look very cool.
+
+# How To Assemble
+
+1. First grab the PCB and verify if it's clean and well-made.
+2. Grab the ESP32, the MPR121 and the Amplifier and solder the pin headers. For the ESP32 it's two 9 pin header, for the MPR121, it's a 6 pin header and a 12 pin header and finaly for the amplifier it's two one pin header and a 7 pin header.
+3. Weld the ESP32, the MPR121, the Amplifier, the JST connector for the speaker, the three switches and the rotary encoder to the PCB
+4. There's two parts on the pack of the JST connector. One it's welded on the PCB. The other you have to solder it to the who cables of the speaker. **MAKE SURE THE RED WIRE GOES TO THE UPPER PART OF THE JST CONNECTOR**
+5. Hot glue the speaker to the PCB
+
+# How to upload the firmware
+
+1. Open the Arduino IDE
+2. Open **File → Preferences**. In **Additional Boards Manager URLs**, add:
+
+   ~~~text
+   https://espressif.github.io/arduino-esp32/package_esp32_index.json
+   ~~~
+
+3. Open **Tools → Board → Boards Manager**, search for esp32, and install **esp32 by Espressif Systems**.
+4. Under **Tools → Board → esp32**, select **Waveshare ESP32-S3-Zero**.
+5. Open **Sketch → Include Library → Manage Libraries**. Install this library:
+
+   - Adafruit MPR121
+
+   If Arduino asks to install dependencies, choose **Install All**.
+
+6. Connect the ESP32 to the computer.
+7. Open keyboard_code.ino and click Arduino's arrow-shaped **Upload** button to upload the firmware to the board.
+
+# Controls
+
+| Control (from left to right) | What it does |
+| --- | --- |
+| First button | Plays with the Acoustic sound |
+| Second button | Plays with the Electric sound |
+| Third button | Plays with the Organ sound |
+| Rotary encoder | Control the volume |

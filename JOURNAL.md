@@ -33,6 +33,9 @@ At that time, i did not know that some of the wiring of the PCB was not ok (obio
 
 ### 2026-10-23 – Work session
 
+I "finished" (there were a lot of things wrong) the schematic, arranged the footprints and started making the custom footprint for the keys.
+The problem i had is that i did not know how to make the custom shape pads fot the keys and i stopped for a moment (more than an hour) to watch some tutorials and learn how to do it.
+
 **1.1h**
 
 [Timelapse](https://lookout.hackclub.com/api/media/61531f6a-fd11-4023-a317-884d9a5b7107/video.mp4)

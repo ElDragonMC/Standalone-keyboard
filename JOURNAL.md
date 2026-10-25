@@ -27,14 +27,14 @@
 **0.32h**
 
 I've started designing the schematic for the PCB of this project. I had to go to eat dinner so i continued the next day.
-At that time, i did not know that some of the wiring of the PCB was not ok (obiously it's fixed later). 
+<br> At that time, i did not know that some of the wiring of the PCB was not ok (obiously it's fixed later). 
 
 [Timelapse](https://lookout.hackclub.com/api/media/059bcbfd-df1a-4790-8a7e-2a6c287fe445/video.mp4)
 
 ### 2026-10-23 – Work session
 
 I "finished" (there were a lot of things wrong) the schematic, arranged the footprints and started making the custom footprint for the keys.
-The problem i had is that i did not know how to make the custom shape pads fot the keys and i stopped for a moment (more than an hour) to watch some tutorials and learn how to do it.
+<br> The problem i had is that i did not know how to make the custom shape pads fot the keys and i stopped for a moment (more than an hour) to watch some tutorials and learn how to do it.
 
 **1.1h**
 

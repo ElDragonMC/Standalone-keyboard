@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmvl3hbhc02n301ocuz4upfrq). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> A keyboard powered with a ESP32 connected to a power bank that uses a speaker to play 3 diferent sounds (acoustic, electric and organ). That's what makes it standalone!
+> A keyboard powered with a ESP32 that uses 4x aaa to power, has a speaker and can play 3 diferent sounds (acoustic, electric and organ). That's what makes it standalone!
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
@@ -26,9 +26,15 @@
 
 **0.32h**
 
+I've started designing the schematic for the PCB of this project. I had to go to eat dinner so i continued the next day.
+<br> At that time, i did not know that some of the wiring of the PCB was not ok (obiously it's fixed later). 
+
 [Timelapse](https://lookout.hackclub.com/api/media/059bcbfd-df1a-4790-8a7e-2a6c287fe445/video.mp4)
 
 ### 2026-10-23 – Work session
+
+I "finished" (there were a lot of things wrong) the schematic, arranged the footprints and started making the custom footprint for the keys.
+<br> The problem i had is that i did not know how to make the custom shape pads fot the keys and i stopped for a moment (more than an hour) to watch some tutorials and learn how to do it.
 
 **1.1h**
 
@@ -36,11 +42,18 @@
 
 ### 2026-10-24 – Work session
 
+I designed a custom footprint for the MPR121 beacouse i could not find one online (The only ones available were for the chip, not the PCB) and i had to fix the wiring on the schematic beacouse the pads on the PCB were diferent ones than the ones on the chip.  Again, i was so wrong and i had to fix it later.
+<br> Then i finaly started designing the custom shape pads for the keys. I had to watch another tutorial beacouse i forgot about it. I think, for me this was the most difficult part of the design process next to programming the code.
+<br> Finaly i arranged the components on the PCB and i left to eat lunch.
+
 **1.37h**
 
 [Timelapse](https://lookout.hackclub.com/api/media/453095ce-8cdc-4b45-af6e-8c5be0f41a92/video.mp4)
 
 ### 2026-10-24 – Work session
+
+I (again) had to fix some footprints beacouse the connector for the speaker, was wrong and i started to route the PCB.
+<br> I had to fix some connections that were not ok beacouse i repeated the connection from the rotary encoder to the ESP32 and i finished routing the PCB. I started making the PCB beautifull so it's not that ugly and has some personality.
 
 **1.18h**
 

@@ -52,6 +52,9 @@ I designed a custom footprint for the MPR121 beacouse i could not find one onlin
 
 ### 2026-10-24 – Work session
 
+I (again) had to fix some footprints beacouse the connector for the speaker, was wrong and i started to route the PCB.
+<br> I had to fix some connections that were not ok beacouse i repeated the connection from the rotary encoder to the ESP32 and i finished routing the PCB. I started making the PCB beautifull so it's not that ugly and has some personality.
+
 **1.18h**
 
 [Timelapse](https://lookout.hackclub.com/api/media/d6836a1e-b688-42fe-ad1e-de8accfb8d0f/video.mp4)

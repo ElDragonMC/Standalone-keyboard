@@ -1,5 +1,5 @@
 # Standalone keyboard
-This is my project for third week Half Life
+This is my project for third week Half Life, a keyboard powered with a ESP32 connected to a power bank that uses a speaker to play 3 diferent sounds (acoustic, electric and organ). That's what makes it standalone!
 
 I enjoyed very much making this project (specialy the PCB). For me, the most difficult part, was making the code so it can properly function.
 

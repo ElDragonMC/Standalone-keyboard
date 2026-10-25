@@ -26,6 +26,9 @@
 
 **0.32h**
 
+I've started designing the schematic for the PCB of this project. I had to go to eat dinner so i continued the next day.
+At that time, i did not know that some of the wiring of the PCB was not ok (obiously it's fixed later). 
+
 [Timelapse](https://lookout.hackclub.com/api/media/059bcbfd-df1a-4790-8a7e-2a6c287fe445/video.mp4)
 
 ### 2026-10-23 – Work session

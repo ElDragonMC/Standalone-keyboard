@@ -19,7 +19,7 @@ Back:
 
 | Item | Qty | Supplier | Cost/item | Total Cost | link |
 | --- | --- | --- | --- | --- | --- |
-| PCB | 1 | JLCPCB | $6.05 | $6.05 | [JLCPCB](https://jlcpcb.com/) |
+| PCB | 1 | JLCPCB | $5.00 | $5.00 | [JLCPCB](https://jlcpcb.com/) |
 | Speaker | 1 | ElectroHobby | $1.66 | $1.66 | [ElectroHobby](https://www.electrohobby.es/sonido/305-altavoz-2w-28mm.html) |
 | Amplifier | 1 | ElectroHobby | $2.78 | $2.78 | [ElectroHobby](https://www.electrohobby.es/sonido/984-max98357-amplificador-i2s.html) |
 | Rotary Encoder | 1 | ElectroHobby | $1.28 | $1.28 | [ElectroHobby](https://www.electrohobby.es/entradassalidas/454-modulo-encoder-ky-040.html) |
@@ -27,7 +27,7 @@ Back:
 | MPR121 | 1 | Amazon ES | $7.80 | $7.80 | [Amazon ES](	https://amzn.eu/d/0ajJMPyk) |
 | 40x Blue Pin Header | ElectroHobby | $0.33 | $0.33 | [ElectroHobby](https://www.electrohobby.es/tiras-de-pines/236-tira-40-pin-macho-azul.html) |
 | **Estimated total shipping** | **1** | — | — | **$3.49** | — |
-| **Total Cost** | **1** | — | — | **$28.06** | — |
+| **Total Cost** | **1** | — | — | **$27.34** | — |
 
 # Desing Process
 

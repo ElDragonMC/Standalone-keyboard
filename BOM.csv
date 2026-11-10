@@ -1,5 +1,5 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
-PCB,1,JLCPCB,$6.05,$6.05,https://jlcpcb.com/
+PCB,1,JLCPCB,$5.00,$5.00,https://jlcpcb.com/
 Speaker,1,ElectroHobby,$1.66,$1.66,https://www.electrohobby.es/sonido/305-altavoz-2w-28mm.html
 Amplifier,1,ElectoHobby,$2.78,$2.78,https://www.electrohobby.es/sonido/984-max98357-amplificador-i2s.html
 Rotary Encoder,1,ElectroHobby,$1.28,$1.28,https://www.electrohobby.es/entradassalidas/454-modulo-encoder-ky-040.html
